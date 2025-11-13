@@ -1,4 +1,4 @@
-# SAMurai <div> Iconos diseñados por <a href="https://www.flaticon.es/autores/iconfield" title="iconfield"> iconfield </a> from <a href="https://www.flaticon.es/" title="Flaticon">www.flaticon.es'</a></div>
+# SAMurai 
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Bash](https://img.shields.io/badge/bash-%3E%3D4.0-green.svg)](https://www.gnu.org/software/bash/)
