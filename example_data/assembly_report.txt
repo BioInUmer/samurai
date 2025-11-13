@@ -1,0 +1,36 @@
+# Assembly name:  ASM2977509v1
+# Organism name:  Drosophila melanogaster (fruit fly)
+# Isolate:  dmeE_34_M0
+# Sex:  male
+# Taxid:          7227
+# BioSample:      SAMN33508901
+# BioProject:     PRJNA939769
+# Submitter:      Univeristy of Edinburgh
+# Date:           2023-04-17
+# Assembly type:  haploid
+# Release type:   major
+# Assembly level: Chromosome
+# Genome representation: full
+# Assembly method: CLC NGS Cell v. 1.0
+# Expected final version: no
+# Reference guided assembly: r6.42
+# Genome coverage: 30x
+# Sequencing technology: Illumina HiSeq
+# GenBank assembly accession: GCA_029775095.1
+#
+## Assembly-Units:
+## GenBank Unit Accession	RefSeq Unit Accession	Assembly-Unit name
+## GCA_029775105.1		Primary Assembly
+#
+# Ordered by chromosome/plasmid; the chromosomes/plasmids are followed by
+# unlocalized scaffolds.
+# Unplaced scaffolds are listed at the end.
+# RefSeq is equal or derived from GenBank object.
+#
+# Sequence-Name	Sequence-Role	Assigned-Molecule	Assigned-Molecule-Location/Type	GenBank-Accn	Relationship	RefSeq-Accn	Assembly-Unit	Sequence-Length	UCSC-style-name
+X	assembled-molecule	X	Chromosome	CP122180.1	<>	na	Primary Assembly	23542271	na
+2L	assembled-molecule	2L	Chromosome	CP122175.1	<>	na	Primary Assembly	23513712	na
+2R	assembled-molecule	2R	Chromosome	CP122176.1	<>	na	Primary Assembly	25286936	na
+3L	assembled-molecule	3L	Chromosome	CP122177.1	<>	na	Primary Assembly	28110227	na
+3R	assembled-molecule	3R	Chromosome	CP122178.1	<>	na	Primary Assembly	32079331	na
+4	assembled-molecule	4	Chromosome	CP122179.1	<>	na	Primary Assembly	1348131	na
