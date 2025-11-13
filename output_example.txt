@@ -1,0 +1,19 @@
+
+=== SAM FILES ALIGNMENT ANALYSIS ===
+
+
+Total reads processed: 368465
+Aligned reads:         345231
+
+
+Accession             Chromosome      Aligned Reads
+--------------------- --------------- ---------------
+CP122175.1            2L              58436
+CP122176.1            2R              63826
+CP122177.1            3L              73734
+CP122178.1            3R              77924
+CP122179.1            4               3720
+CP122180.1            X               67591
+
+
+Total execution time: 6 s
