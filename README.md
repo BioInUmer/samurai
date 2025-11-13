@@ -110,7 +110,6 @@ sam-align-summary/
 ├── samurai.sh                   # Main script
 ├── example_data/                # Example input files
 │   ├── sample1.sam
-│   ├── sample2.sam
 │   └── assembly_report.txt
 ├── output_example.txt           # Example output
 ├── LICENSE
