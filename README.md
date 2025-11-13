@@ -1,4 +1,4 @@
-# SAMurai <img width="512" height="512" alt="image" src="https://github.com/user-attachments/assets/6f11556c-b14a-4386-ab99-9695e1c2592a" />
+# SAMurai <img width="350" height="350" alt="image" src="https://github.com/user-attachments/assets/6f11556c-b14a-4386-ab99-9695e1c2592a" />
 
 This SAM file analyst takes multiple alignments and an assembly map to instantly summarize total reads and their distribution across the genome.
 
