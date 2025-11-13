@@ -111,6 +111,7 @@ sam-align-summary/
 ├── example_data/                # Example input files
 │   ├── sample1.sam
 │   └── assembly_report.txt
+├── Report.pdf                   # Report PDF file
 ├── output_example.txt           # Example output
 ├── LICENSE
 └── README.md
