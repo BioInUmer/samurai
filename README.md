@@ -85,7 +85,7 @@ NC_000001.11          1               450000
 NC_000002.12          2               320000
 NC_000023.11          X               150000
 
-Total execution time: 12 s
+Total execution time: 1 s
 ```
 
 View results: `cat output.txt`
