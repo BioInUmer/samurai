@@ -1,4 +1,5 @@
-# samurai <img width="250" height="250" alt="image" src="https://github.com/user-attachments/assets/920229e1-e5fc-4d4f-99e8-c5ba349de78f" />
+# samurai <img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/5c9dd162-d42f-4f39-940d-7e740d5a5661" />
+
 
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
