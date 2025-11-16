@@ -2,14 +2,10 @@
 
 # samurai 
 
-
-
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Bash](https://img.shields.io/badge/bash-%3E%3D4.0-green.svg)](https://www.gnu.org/software/bash/)
 
 This SAM file analyst takes multiple alignments and an assembly map to instantly summarize total reads and their distribution across the genome.
-
-> 📄 **For detailed documentation, workflow explanations, and technical specifications, see the PDF file (Report.pdf) included in this repository. Note: RUScript.sh = samurai.sh**
 
 ---
 
@@ -22,7 +18,12 @@ This SAM file analyst takes multiple alignments and an assembly map to instantly
 - Reports read counts per accession-chromosome pair  
 - Produces a clean, ready-to-read output file (`output.txt`)
 
+## Documentation
+> 📄 **For detailed documentation, workflow explanations, and technical specifications, see the PDF file (Report.pdf) included in this repository. Note: RUScript.sh = samurai.sh**
+
 ---
+
+## Installation
 
 ## ☑︎ Requirements
 
@@ -30,29 +31,30 @@ This SAM file analyst takes multiple alignments and an assembly map to instantly
 - Bash ≥ 4.0
 - Standard Unix tools: `awk`, `grep`, `sort`, `uniq`, `join`
 
----
-
-## Quick Start
+### Clone the Repository
 
 ```bash
-# Clone and setup
 git clone https://github.com/BioInUmer/samurai.git
 cd samurai
 chmod +x samurai.sh
 ```
+---
 
 ## ▶︎ Usage
+
+### Basic Syntax
 
 ```bash
 ./samurai.sh <file1.sam> [file2.sam ...] <assembly_report>
 ```
 
-**Rules:**
+### Rules
 - Provide at least ONE SAM file
 - Assembly report must be the LAST parameter
 - All files except the last must have `.sam` extension
 
-**Examples:**
+### Examples
+
 ```bash
 # Single file
 ./samurai.sh sample.sam assembly_report.txt
@@ -61,14 +63,14 @@ chmod +x samurai.sh
 ./samurai.sh sample1.sam sample2.sam sample3.sam assembly_report.txt
 ```
 
-## Input Files
+### Input Files
 
 - **SAM files**: Standard alignment format with header lines (`@`) and alignment records
 - **Assembly report**: Tab-delimited file mapping accession numbers (column 5) to chromosome names (column 1)
 
 See the included PDF for detailed format specifications.
 
-## Output
+### Output
 
 Generates `output.txt` with:
 - Total reads processed
@@ -76,7 +78,8 @@ Generates `output.txt` with:
 - Per-chromosome alignment counts
 - Execution time
 
-**Sample output:**
+### Sample output
+
 ```
 === SAM FILES ALIGNMENT ANALYSIS ===
 
@@ -96,7 +99,7 @@ View results: `cat output.txt`
 
 ---
 
-## ⚠️ Troubleshooting
+## ⚠️ Error Handling
 
 **Permission denied:**
 ```bash
@@ -108,6 +111,8 @@ chmod +x samurai.sh
 **Empty output:** Check SAM file format and assembly report compatibility
 
 For detailed troubleshooting, see the included PDF documentation.
+
+---
 
 ## 📁 Repo Structure
 ```
@@ -123,9 +128,9 @@ samurai/
 └── README.md
 ```
 
-## ©️ License
+## License
 
-MIT License - See LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ##
 **Version:** 1.0.0 | **Last Updated:** November 2025
