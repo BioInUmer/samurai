@@ -25,7 +25,7 @@ This SAM file analyst takes multiple alignments and an assembly map to instantly
 
 ## Installation
 
-## ☑︎ Requirements
+### ☑︎ Requirements
 
 - Linux/macOS/Unix environment
 - Bash ≥ 4.0
