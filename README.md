@@ -1,4 +1,7 @@
-# samurai <img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/5c9dd162-d42f-4f39-940d-7e740d5a5661" />
+<img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/5c9dd162-d42f-4f39-940d-7e740d5a5661" />
+
+---
+# samurai 
 
 
 
